@@ -10,18 +10,9 @@ public class halfpyramid {
     }
 
     private static void makePyramid(int input) {
-        for (int i = 0; i < input; i++) {
+        for (int i = 1; i <= input; i++) {
 
-            for (int j = 0; j < input - i - 1; j++) {
-                System.out.print(" ");
-            }
-
-            for (int j = 0; j <= i; j++) {
-                System.out.print("*");
-            }
-
-
-            System.out.println(" ");
+            System.out.print(i);
         }
     }
 }

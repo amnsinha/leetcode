@@ -13,17 +13,12 @@ public class sumparallelcolumn {
         int row = arr.length;
         int column = arr[0].length;
         List arrayList = new ArrayList();
-        int columnIndex = 0;
-        for (int i = 0; i < column; i++) {
+        for (int i = 0; i < row; i++) {
             int sum = 0;
-
-            for (int j = 0; j < row; j++) {
-                sum = sum + arr[j][columnIndex];
-                //System.out.print(arr[j][columnIndex]);
-                //  i++;
+            for (int j = 0; j < column; j++) {
+                sum = sum + arr[i][j];
             }
-            columnIndex++;
-            arrayList.add(sum);
+            System.out.println(sum);
 
         }
         arrayList.forEach(System.out::println);

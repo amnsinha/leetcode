@@ -10,6 +10,7 @@ public class sumparallelcolumn {
                 {7, 9, 8, 0},
                 {5, 0, 1, 3}
         };
+
         int row = arr.length;
         int column = arr[0].length;
         List arrayList = new ArrayList();

@@ -7,13 +7,9 @@ import java.util.List;
 public class mergeIntervals {
     public static
     int[][] merge(int[][] sdd) {
-
-
         if (!(sdd.length > 0)) {
             return sdd;
         }
-
-
         int rowLe = sdd.length;
         int[] cache = new int[2];
         List<List<Integer>> l = new ArrayList<>();
@@ -33,7 +29,7 @@ public class mergeIntervals {
                 cache[1] = sdd[i][1];
             } else {
                 kkk.add(cache[0]);
-                kkk.add(cache[1]);
+
 
 
                 cache[0] = sdd[i][0];

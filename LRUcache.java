@@ -1,6 +1,8 @@
 package leetcode;
 
+import java.util.ArrayList;
 import java.util.Hashtable;
+import java.util.List;
 
 class LRUCache {
     int capacity;
@@ -18,3 +20,5 @@ class LRUCache {
         hashtable.put(key, value);
     }
 }
+
+

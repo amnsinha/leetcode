@@ -2,7 +2,7 @@ package leetcode.array;
 
 import java.util.Arrays;
 
-public class additionarray {
+class additionarraysss {
     String colors = "ABBBBBBBAAA";
 
 

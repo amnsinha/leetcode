@@ -2,7 +2,7 @@ package leetcode.array;
 
 import java.util.Arrays;
 
-public class Unique_Integers_That_Sum_Up_To_0 {
+class Unique_Integers_That_Sum_Up_To_0 {
 
     public static void main(String[] args) {
         System.out.println(sumZero(5));

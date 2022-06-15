@@ -6,7 +6,7 @@ public class twoSUmpr {
 
     public static void main(String[] args) {
 
-        int[] result = twoSum(new int[]{3,2,4}, 6);
+        int[] result = twoSum(new int[]{-3,4,3,90}, 0);
         System.out.println(result[0]);
         System.out.println(result[1]);
     }
@@ -18,7 +18,7 @@ public class twoSUmpr {
         int[] result = new int[2];
         for (int i = 0; i < nums.length; i++) {
 
-            if (target >= nums[i]) {
+
                 if (!hmap.containsKey(target - nums[i])) {
                     hmap.put(nums[i], i);
                 } else {
@@ -26,7 +26,6 @@ public class twoSUmpr {
                     result[0] = hmap.get(target - nums[i]);
 
                 }
-            }
         }
 
         return result;

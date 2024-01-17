@@ -1,8 +1,5 @@
 package leetcode.array;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class aliengame {
     public static boolean isAlienSorted(String[] words, String order) {
         int[] mapping = new int[26];
